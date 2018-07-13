@@ -1,0 +1,44 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+</head>
+<body>
+<script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.x.js"></script>
+ <script>
+		$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:1000,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:true,
+				banners:'fromRight',
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+		});
+	</script>
+	<div class="main">
+	<section id="content">
+	<div id="slide" class="box-shadow">	
+	<div class="slider">
+                <ul class="items">
+                    <li><img src="Images/jodi.jpg" alt="" /><div class="banner">Jodi No.1&nbsp;</div></li>
+                    <li><img src="Images/ss.jpg" alt="" /><div class="banner">Super Singer&nbsp;</div></li>
+                    <li><img src="Images/SM.jpg" alt="" /><div class="banner"></a>Saravanan Meenatchi&nbsp;</div></li>
+                </ul>
+            </div>	
+        </div>
+	</div>
+	</div>
+	
+</body>
+</html>
